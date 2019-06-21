@@ -1,7 +1,11 @@
-// import React from 'react'; //this only works if webpack is installed
-// import ReactDOM from 'react-dom'; //this only works if webpack is installed
 import App from "./app.js";
-console.log(React);
-console.log('Heeey!!!');
 
-ReactDOM.render(<App />, document.getElementById('app'));
+var movies = [
+    {id: 0, title: 'Mean Girls'},
+    {id: 1, title: 'Hackers'},
+    {id: 2, title: 'The Grey'},
+    {id: 3, title: 'Blah'},
+    {id: 4, title: 'Ex Machine'}
+]
+
+ReactDOM.render(<App movies={movies}/>, document.getElementById('app'));
