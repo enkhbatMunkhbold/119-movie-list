@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "transpile": "babel src --presets @babel/preset-env,@babel/preset-react --out-dir lib --ignore=node_modules, lib --source-maps inline"
+    "transpile": "babel src --presets @babel/preset-react --out-dir lib --ignore=node_modules,lib --source-maps inline"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "underscore": "^1.9.1"
   },
   "devDependencies": {

@@ -1,1 +1,1 @@
-const someReact = <div>Goodbuy world</div>;
+const someReact = <div>Goodbye world</div>;
