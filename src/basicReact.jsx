@@ -1,0 +1,1 @@
+const someReact = <div>Goodbuy world</div>;
